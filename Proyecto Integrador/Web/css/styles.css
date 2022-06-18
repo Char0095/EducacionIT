@@ -151,10 +151,15 @@ main {
 
 /*----------------------ASIDE----------------------*/
 
+aside {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 aside a img {
     height: auto;
-    width: 5%;
-    
+    width: 80px;
 }
 
 /*----------------------LIST----------------------*/
