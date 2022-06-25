@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav, header {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #04146C;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.activo {
+    font-weight: 700;
+}
+
+#logo {
+    width: 5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #0A2FF1;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #04146C;
+}
+
+main h1 {
+    font-size: 46px;
+    color: #2C00CC;
+}
+
+form p, form label, textarea, input {
+    font-size: 25px;
+    color:#04146C;
+    display: block;
+}
+
+label {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+span {
+    color: red;
+}
+
+textarea {
+    height: 100px;
+}
+
+textarea, input {
+    width: 500px;
+    height: 50px;
+    border: 2px solid #2C00CC;
+}
+
+.botones {
+    color: white;
+    width: 150px;
+    height: 50px;
+    display: inline;
+    margin-top: 20px;
+}
+
+#reset {
+    background-color:#FF0000;
+    border:none;
+    margin-right:15px;
+}
+
+#enviar {
+    background-color:#2C00CC;
+}
