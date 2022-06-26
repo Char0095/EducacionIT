@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -74,11 +76,7 @@ h4, main p {
 }
 
 main {
-    background-image: url(../img/M5-Desafio3-img.png);
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    padding: 10px;
+    display: flex;
 }
 
 main h1 {
@@ -88,15 +86,28 @@ main h1 {
 
 main p {
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
 main div {
-    width: 60%;
+    width: 50%;
+    display: inline-block;
 }
 
 div h1 {
     font-size: 46px;
     color: #2C00CC;
+}
+
+.img-cohete {
+    position: relative;
+}
+
+.img-cohete img {
+    margin-bottom: -70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 form p, form label, textarea, input {
