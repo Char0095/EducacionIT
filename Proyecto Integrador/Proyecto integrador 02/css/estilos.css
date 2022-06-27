@@ -121,11 +121,16 @@ h3 {
 
 h4 {
     font-size: 1.4em;
+    border-bottom: 1px dotted #b45008;
     color: #e8bf65;
 }
 
 p {
     font-size: 1.2em;
+}
+
+.activo {
+    text-decoration: underline;
 }
 
 footer {
