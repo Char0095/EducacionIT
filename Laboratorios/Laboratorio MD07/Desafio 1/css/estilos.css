@@ -38,7 +38,7 @@ p {
     align-items: center;
     background-color: #eff2ff;
     width: 100%;
-    height: 15vw
+    height: 15vw;
 }
 
 #tarjetas img {
@@ -47,7 +47,7 @@ p {
     align-items: center;
     justify-content: center;
     height: 10vw;
-    margin-left: 135px;
+    margin-left: 140px;
 }
 
 .icon-apple {
