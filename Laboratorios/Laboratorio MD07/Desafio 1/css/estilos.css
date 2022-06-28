@@ -47,7 +47,7 @@ p {
     align-items: center;
     justify-content: center;
     height: 10vw;
-    margin-left: 140px;
+    margin: 0 auto;
 }
 
 .icon-apple {
