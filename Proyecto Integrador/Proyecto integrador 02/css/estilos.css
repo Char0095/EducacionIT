@@ -86,6 +86,7 @@ main {
     width: 80%;
     margin: auto;
     display: block;
+    border-radius: 10px /20px;
 }
 
 .nosotros {
