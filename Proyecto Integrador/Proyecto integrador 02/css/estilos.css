@@ -16,6 +16,7 @@ body {
     font-size: 90%;
     margin: 0;
     padding: 0;
+    counter-reset: miContador;
 }
 
 nav {
@@ -159,6 +160,13 @@ h4 {
     text-shadow: 2px 3px 2px rgba(200, 200, 14, 0.5);
     border-bottom: 1px dotted #b45008;
     color: #e8bf65;
+}
+
+h4::before {
+    counter-increment: miContador;
+    content: counter(miContador, upper-roman) "-";
+    font-variant: small-caps;
+    font-size: 20px;
 }
 
 p {
