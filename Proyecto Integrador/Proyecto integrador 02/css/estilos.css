@@ -36,6 +36,10 @@ nav img {
     margin-right: auto;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 #encabezado {
     background-image: url(../img/banner.JPG);
     background-repeat: no-repeat;
@@ -88,6 +92,10 @@ main {
     display: block;
     border-radius: 10px /20px;
     box-shadow: 1px 3px 10px black;
+}
+
+.division img:hover {
+    opacity: 0.5;
 }
 
 .nosotros {
