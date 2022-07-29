@@ -26,10 +26,10 @@ for (let i = 0; i < ofertas.length; i++) {
     let interes = (actual.capital * actual.plazo * actual.tasa) / 100;
     ofertasConInteres.push({
         nombre: actual.nombre,
-        capital: actual.capital,
-        plazo: actual.plazo,
-	    tasa: actual.tasa,
-	    interes: interes
+        capital: '$ ' + actual.capital.toFixed(2),
+        plazo: actual.plazo + ' dias.',
+	    tasa: actual.tasa + '%',
+	    interes: '$ ' + interes.toFixed(2)
     });    
 }
 
