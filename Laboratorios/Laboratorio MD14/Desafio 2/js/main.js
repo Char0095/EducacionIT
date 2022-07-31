@@ -38,28 +38,3 @@ function agregarInteres(ofertas)
 }
 
 console.log(agregarInteres(ofertas))
-
-function flujoDeCaja() {
-
-	let Ingresos = 0;
-	let Egresos = 0;
-    let array = [];
-
-	for(let i = 0; i < ofertas.length; i++) {
-		let actual = ofertas[i];
-        array.push({
-		ingresos: Ingresos += actual.ingresos,
-		egresos: Egresos += actual.egresos
-    })
-    if(Ingresos > Egresos) {
-        return 1;
-    } else if (Ingresos < Egresos){
-        return -1;
-    } else {
-        return 0;
-    }
-}
-    return array;
-}
-
-console.log(flujoDeCaja())
