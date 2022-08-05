@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+</head>
+<body>
+
+    <div>
+        <h2>Ingresos: </h2>
+        <input type="number" id="ingresos">
+    </div>
+
+    <button id="btn-calcular">Calcular</button>
+
+    <div>
+        <span id="gastos-necesarios">Gastos necesarios:</span>
+    </div>
+
+    <div>
+        <span id="gastos-opcionales">Gastos opcionales:</span>
+    </div>
+
+    <div>
+        <span id="ahorro-inversion">Ahorro e inversión:</span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('#btn-calcular').click(() => {
+                const ingresos = Number($('#ingresos').val());
+                $('#gastos-necesarios').html(ingresos * 0.5);
+                $('#gastos-opcionales').html(ingresos * 0.3);
+                $('#ahorro-inversion').html(ingresos * 0.2);
+            });
+        });
+    </script>
+
+</body>
+</html>
