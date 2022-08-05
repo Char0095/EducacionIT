@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+</head>
+<body>
+
+    <h1>Calculadora de Punto de Equilibrio</h1>
+
+    <div>
+        <span>Precio de Venta: </span>
+        <input type="number" id="precio-venta">
+    </div>
+
+    <div>
+        <span>Costos Fijos: </span>
+        <input type="number" id="costos-fijos">
+    </div>
+
+    <div>
+        <span>Costos Variables: </span>
+        <input type="number" id="costos-variables">
+    </div>
+
+    <button id="btn-calcular">Calcular</button>
+
+    <div>
+        <span id="punto-equilibrio">El punto de equilibrio es: </span>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('#btn-calcular').click(() => {
+                const precioVenta = Number($('#precio-venta').val());
+                const costosFijos = Number($('#costos-fijos').val());
+                const costosVariables = Number($('#costos-variables').val());
+                const puntoEquilibrio = costosFijos / (precioVenta - costosVariables);
+                $('#punto-equilibrio').html(puntoEquilibrio);
+            });
+        });
+    </script>
+</body>
+</html>
