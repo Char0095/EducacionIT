@@ -1,0 +1,17 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>80</x><y>30</y><w>220</w><h>130</h></coordinates><panel_attributes>Envase
+--
+- tipo : string;
+- capacidad : int;
+- alto : float;
+- diametro : float;
+- material : string;
+- valorDevolucionXun : float;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>30</y><w>210</w><h>110</h></coordinates><panel_attributes>Panel
+--
+- botonInicio : bool = false;
+- botonRecibo : bool = false;
+--
+
++ iniciaScaneo();
++ imprimeRecibo();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>30</y><w>210</w><h>60</h></coordinates><panel_attributes>Cliente
+--
+-idCliente : int;</panel_attributes><additional_attributes></additional_attributes></element></diagram>
